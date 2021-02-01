@@ -31,7 +31,9 @@ Todo lo demás es R markdown normalito
 ---
 # Introduction
 
-![Coeficiente de Gini](pic_a.png){ width=50% }
+Comentario: las imagenees de texto estan en la carpeta img.
+
+![Fig 1](img/a.png){ width=50% }
 ---
 # Body
 
