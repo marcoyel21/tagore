@@ -18,6 +18,7 @@ options(scipen = 999)
 
 Hola amigos, esta es la plantilla para hacer pptxs en markdown (sharingan). Les dejo el resto de la presentación (que hice para micro el semestre pasado) por si quieren ver como funcionan los comandos pero a grandes rasgos:
 
+Gracias Marco, por crear este documento...
 "---"<------ indica siguiente diapositiva
 
 "--"<------- indica espacio
