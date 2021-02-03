@@ -58,7 +58,7 @@ Todo lo demás es R markdown normalito
 
 ---
 # The extensive Margin
-
+Muy bonitas graficas tenia el paper, gracias autores.
 ---
 # The extensive Margin
 
