@@ -16,45 +16,80 @@ knitr::opts_chunk$set(echo = FALSE)
 options(scipen = 999)
 ```
 
-Hola amigos, esta es la plantilla para hacer pptxs en markdown (sharingan). Les dejo el resto de la presentación (que hice para micro el semestre pasado) por si quieren ver como funcionan los comandos pero a grandes rasgos:
+# Introducción
 
-Gracias Marco, por crear este documento...
-"---"<------ indica siguiente diapositiva
++ Existe una relación entre ingreso y consumo de aire acondicionado.
 
-"--"<------- indica espacio
++ Los países de ingreso medio son los que más van a contribuir al crecimiento en su demanda (países como EEUU ya alcanzaron el 90% de los hogares).
 
-".pull-left[blablalba]"<--- indica columna a la izquierda
++ Piensen en el potencial de China e India. El problema es la demanda de energía (generación y distribución).
 
-".pull-right[blablalba]"<-- indica columna a la derecha
++ Con datos de México se modela la relación entre el consumo de AC, temperatura e ingreso.
 
-Todo lo demás es R markdown normalito
++ Posteriormente se usaron las estimaciones para predecir el consumo de energia.
 
----
-# Introduction
++ En un escenario muy conservador, se predice saturación de AC en zonas de alta temperatura en tan solo unas décadas.
 
----
-# The intensive Margin
++ En cuanto al consumo de energia, este dependerá del cambio tecnológico: mejoras en eficiencia en la generación de energia y/o en el consumo energético de los AC.
 
 ---
-# The intensive Margin
+
+# Introducción
+
+La relación AC, clima e ingreso se analiza en dos sentidos:
+
++ Margenes intensivos: $(C_{electricity}|AC)= f( X_{temp})$
+
++ Márgenes extensivos: $AC= f(X_{temp},X_{income})$
+
+---
+# Margenes intensivos
+
+Efectos fijos:
+
+$$ln(y_{it})=\sum_j \alpha_jTEMP_{itj}+\beta RAIN_{it}+\gamma_i+\omega_t+\epsilon_{it}$$
+donde:
+
++ TEMP: cantidad de días en los que la temperatura promedio estuvo en cada cateogría
+
++ i: ciclo de cobro de la luz
+
++ RAIN: variable de control sobre los días de lluvia durante el ciclo.
+
++ $\gamma_i$: efectos fijos de cada hogar
+
++ $\omega_i$: otros efectos fijos generales
+
+
+
+
+---
+# Margenes intensivos
 
 ![Fig 1](img/a.png)
 
----
-# The intensive Margin
 
 ---
-# The intensive Margin
+# Margenes intensivos
 
 ![Fig 1](img/h.png)
 
 ---
-# The intensive Margin
-
----
-# The intensive Margin
+# Margenes intensivos
 
 ![Fig 1](img/f.png)
+---
+# Margenes intensivos
+
+**Resultados**
+
++ No hay U-shape con en otros países
+
++ Efecto es cero como hasta los 70º 
+
++ A partir de ahí el efecto es positivo y creciente.
+
++ En particular, en el ultimo grupo (>90º) cada día adiconal aumenta el consumo de electricidad en 3.2%
 
 ---
 # The Extensive Margin - Definition
@@ -119,7 +154,6 @@ El punto de quiebre es la media del número de "cooling degree days" (CDDs). El 
 ![Fig 1](img/b.png)
 
 ---
-<<<<<<< HEAD
 # The Extensive Margin - Ingreso y Aire
 
 La relación entre el ingreso y la posesión de aire acondicionado en el hogar es distinta dependiendo de las condiciones climáticas del municipio. En los más fríos solo los hogares muy "ricos" consideran tener este aparato en el hogar pero nunca representa más del 10% de los hogares. Por el contrario, en los municipios calurosos hay una relación positiva entre el ingreso y la posesión de un aire acondicionado. Dentro de los hogares con más recursos cerca del 80% cuanta con este artefacto. 
