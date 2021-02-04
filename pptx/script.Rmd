@@ -119,6 +119,7 @@ El punto de quiebre es la media del número de "cooling degree days" (CDDs). El 
 ![Fig 1](img/b.png)
 
 ---
+<<<<<<< HEAD
 # The Extensive Margin - Ingreso y Aire
 
 La relación entre el ingreso y la posesión de aire acondicionado en el hogar es distinta dependiendo de las condiciones climáticas del municipio. En los más fríos solo los hogares muy "ricos" consideran tener este aparato en el hogar pero nunca representa más del 10% de los hogares. Por el contrario, en los municipios calurosos hay una relación positiva entre el ingreso y la posesión de un aire acondicionado. Dentro de los hogares con más recursos cerca del 80% cuanta con este artefacto. 
@@ -149,17 +150,74 @@ En el caso de los modelos de la parte inferior se observa como el término de la
 
  
 ---
-# Forecasting End-of-Century Energy Use
 
-![Fig 1](img/d.png)
+# Forecasting End of Century Energy Use
+En las diapositivas anteriores, mencionamos que los autores encontraron las
+siguientes relaciones con respecto a la demanda de electricidad (intensivo) y
+la adquisición de nuevos aparatos de enfriamiento (extensivo). Los efectos fueron:
+
+  + Un incremento en el número de días con temperaturas altas, implica un aumento
+  en la demanda de electricidad por parte de los hogares.
+  
+  + Un incremento en el ingreso y en el número de días calurosos incrementan
+  la adopcion de tecnologías de enfriamiento por parte de los hogares. 
+
+Utilizando los efectos estimados, los autores estiman el incremento
+en la demanda por electricidad (y emisión de gases invernadero) por parte de los hogares.
+---
+# Forecasting End od Century Energy Use
+## Predicción de Temperaturas
+Los autores generaron una serie con las temperaturas para cada municipio del país al final del siglo. 
+Esto se logró utilizando temperaturas actuales y sumándoles los cambios en las temperaturas de cada mes que se esperan según las predicciones encontradas en *Climate Wizard* (http://www.climatewizard.org) para dos escenarios (RCP 4.5 y 8.5). 
+
+```{r, echo=FALSE, out.width="50%", fig.cap="Cambios en la distribución del promedio de temperaturas diarias (RCP 8.5).", fig.align="center"}
+knitr::include_graphics("img/d.png")
+```
+
 ---
 
-# Forecasting Enf od Century Energy Use
+# Forecasting End of Century Energy Use
+## Predicciones del margen intensivo
+
+Utilizando la función de respuesta de los hogares con respecto al clima/temperatura y manteniendo constante el nivel de aparatos de enfriamiento (*ceteris paribus*), los autores obtuvieron las siguientes predicciones sobre qué pasará con la demanda por energía:
+
+```{r, echo=FALSE, out.width="95%", fig.cap="", fig.align="center"}
+knitr::include_graphics("img/Forecast1.png")
+```
 
 ---
-# Forecasting Enf od Century Energy Use
+# Forecasting End of Century Energy Use
+## Predicciones del margen intensivo + margen extensivo
 
-![Fig 1](img/e.png)
+Para incorporar al análisis el margen extensivo, los autores asumen un crecimiento de 2% en el producto interno bruto de México (PIB == Ingreso). El supuesto implica que el ingreso de las familias (o la economia mexicana) será 4 veces mayor dentro de 70 años. Los resultados obtenidos son los siguientes
+
+```{r, echo=FALSE, out.width="95%", fig.cap="", fig.align="center"}
+knitr::include_graphics("img/Forecast2.png")
+```
+
+---
+# Forecasting End of Century Energy Use
+
+Al incorporar el efecto del uso extensivo al análisis, podemos observar que los hogares empiezan a adquirir aire acondicionado. Dado que México es un país de ingreso medio, los autores esperan que este efecto no se observe solo en México, sino que también los demás **países de ingreso medio/bajo empiecen a adquirir una mayor cantidad de equipos de enfriamiento (aires acondicionados)**. Las implicaciones del incremento en la adquisición de aires acondicionado son
+  1. Un incremento en la emisión de dioxido de carbono y producción de energía.
+  2. Un incremento en la inversión para incrementar la capacidad y distribución de energía electrica. 
+  
+Otro hecho importante a destacar es que el **efecto ingreso** es mucho más grande que el de la temperatura. 
+
+---
+# Forecasting End of Century Energy Use
+
+```{r, echo=FALSE, out.width="95%", fig.cap="", fig.align="center"}
+knitr::include_graphics("img/Forecast3.png")
+```
+---
+#Forecasting End of Century Energy Use
+
+En la siguiente tabla se muestran  algunas características para países similares en ingreso que México.
+
+```{r, echo=FALSE, out.width="95%", fig.cap="", fig.align="center"}
+knitr::include_graphics("img/e.png")
+```
 
 ---
 # Conclusiones
