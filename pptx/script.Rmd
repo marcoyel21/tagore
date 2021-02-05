@@ -50,9 +50,11 @@ Efectos fijos:
 $$ln(y_{it})=\sum_j \alpha_jTEMP_{itj}+\beta RAIN_{it}+\gamma_i+\omega_t+\epsilon_{it}$$
 donde:
 
++ $y_{it}$: consumo de electricidad del hogar t en el ciclo de cobro i.
+
 + TEMP: cantidad de días en los que la temperatura promedio estuvo en cada cateogría
 
-+ i: ciclo de cobro de la luz
++ $i$: ciclo de cobro de la luz
 
 + RAIN: variable de control sobre los días de lluvia durante el ciclo.
 
