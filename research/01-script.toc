@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}
+\contentsline {section}{Introducción}{2}{section*.2}%
+\contentsline {section}{Cuerpo}{2}{section*.3}%
+\contentsline {subsection}{Sub 1}{2}{section*.4}%
+\contentsline {subsection}{Sub 2}{2}{section*.5}%
+\contentsline {section}{Conclusión}{2}{section*.6}%
+\contentsline {section}{Referencias}{3}{section*.7}%

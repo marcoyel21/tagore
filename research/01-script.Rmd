@@ -46,7 +46,7 @@ header-includes :
 \textsc{\large }\\[1em]
 \textsc{\LARGE }\\[1em]
 
-\textsc{\LARGE Dr. Shaun}\\[1em]
+\textsc{\LARGE Dr. Shaun McRae}\\[1em]
 
 \textsc{\LARGE }\\[1em]
 \textsc{\LARGE }\\[1em]
@@ -55,13 +55,13 @@ header-includes :
 
 \textsc{\large 142244}\\[1em]
 
-\textsc{\LARGE Carlos}\\[1em]
+\textsc{\LARGE Carlos Eduardo López de la Cerda Bazaldúa}\\[1em]
 
-\textsc{\large 141371}\\[1em]
+\textsc{\large 158122}\\[1em]
 
-\textsc{\LARGE Adrian }\\[1em]
+\textsc{\LARGE Adrián J. Martínez Rodríguez}\\[1em]
 
-\textsc{\large 81358}\\[1em]
+\textsc{\large 154571}\\[1em]
 
 \end{center}
 
