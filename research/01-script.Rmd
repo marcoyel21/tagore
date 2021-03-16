@@ -35,7 +35,7 @@ header-includes :
 \textsc{\LARGE }\\[1em]
 
 
-\textsc{\large Tarea 2 Lavadoras}\\[1em]
+\textsc{\LARGE Group Research Project 1: Análisis Económico del uso de las secadoras de ropa en México}\\[1em]
 
 \textsc{\LARGE }\\[1em]
 
@@ -55,13 +55,13 @@ header-includes :
 
 \textsc{\large 142244}\\[1em]
 
-\textsc{\LARGE Carlos Eduardo López de la Cerda Bazaldúa}\\[1em]
-
-\textsc{\large 158122}\\[1em]
-
 \textsc{\LARGE Adrián J. Martínez Rodríguez}\\[1em]
 
 \textsc{\large 154571}\\[1em]
+
+\textsc{\LARGE Carlos Eduardo López de la Cerda Bazaldúa}\\[1em]
+
+\textsc{\large 158122}\\[1em]
 
 \end{center}
 
@@ -90,6 +90,19 @@ library(kableExtra)
 ```
 
 # Introducción
+
+A pesar de la gran extensión del territorio mexicano, la mayoría de las regiones del país tienen climas cálidos en todos los meses del año. Incluso en la época de invierno donde las zonas norteñas registran las temperaturas más bajas, durante varias horas del día la exposición al sol es amplia. Esto es algo completamente opuesto a otras latitudes donde las horas con luz natural son limitadas con consecuencias tanto en la actividad económica como en la salud física y mental de sus habitantes. 
+
+Fuera de la descripción física del territorio, en materia de ingresos la condición en México está caracterizada por enormes asimetrías. Mientras algunas urbes tienen niveles de vida incluso similares a las de ciudades europeas, muchas otras entidades dentro del país viven en condición precarias sobreviviendo con recursos muy por debajo de las diversas líneas de pobreza.
+
+Adicional a estos dos elementos, la infraestructura de cada localidad podría ser una enorme barrera en la adopción de ciertos bienes intensivos en el consumo de energía. Por ejemplo, sería muy difícil encontrar electrodomésticos como televisiones, cafeteras, planchas, computadoras o consolas de videojuegos en lugares donde el suministro de electricidad es nulo. Pero también hay potenciales barreras en la cobertura de gas o agua que podrían afectar a toda una amplia lista de productos. 
+
+En este reporte centraremos nuestra atención en el uso de un electrodoméstico bastante peculiar y muy pocas veces estudiado en los análisis económicos de la Economía de los Energéticos: las secadoras de ropa. Este bien es por muchas razones relevante pues su adopción dentro de los hogares es una mezcla de factores geográficos, de ingreso, de características físicas de la vivienda, de infraestructura en las localidades e incluso de prejuicios de los consumidores. Nuestro análisis es una aportación relevante a la literatura al traer al centro de la discusión un bien para el cual los estudios económicos son prácticamente nulos pero que también permite utilizar toda una gama de herramientas que ayuda a distinguir entre los diversos mecanismos que influyen en la demanda energética a largo plazo tanto en México como en muchos otros países. 
+
+**[AQUÍ HAY QUE PONER EL MAIN ARGUMENT- EL QUE PONGO ES MEDIO INVENTADO]** Con los resultados de nuestro análisis, encontramos que las secadoras de ropa son un bien con una cobertura de adopción prácticamente mínima en el país (6%) y para los cuales el mayor predictor de que un hogar tenga este aparato es su nivel de ingresos aproximado por el número de trabajadores en el hogar (**Esto es choro pero supongamos que los que contratan lavanderos según la terminología del encevi (o personal de limpieza) son los que más secadoras tienen lo cual suena novedoso**) muy por arriba de otros elementos geográficos como los días calurosos del año o incluso de la cobertura de gas en la ciudad. También incluimos un análisis preliminar repescto al número de minutos que se utilizan las secadoras dentro de los hogares y el consumo promedio de gas. (**maybe una elasticidad o algo del precio de gas y el uso de la secadora**).
+
+Nuestro breve reporte se divide de la siguiente manera. En la primer sección presentamos algunas estadísticas descriptivas sobre la adopción de las secadoras de ropa en las diferentes localidades del territorio mexicano junto con: a) algunos datos geográficos como la temperatura ambiental y el número de horas con exposición solar. b) un panorama de los ingresos en los hogares y sus niveles de vida; y c) la cobertura de servicios estratégicos como el gas. En la segunda sección entramos a fondo a los determinantes que predicen la adopción de una secadora de ropa en los hogares. Para ello, proponemos un método de predicción de ingreso en los hogares usando algunas características reportadas en diversas encuestas y usamos un modelo probit [**no se estoy inventando**] combinado con un análisis de selección de variables lasso para predecir la adopción de una secadora de ropa. Una vez identificados los factores que explican porqué los hogares tienen esto bien incluimos un análisis exploratorio de la relación entre los minutos de uso y el precio del gas. Nuestra tercera y última sección desarrolla sobre las implicaciones económicas y de política pública que surgen del análisis económico de este bien. Concluimos que a pesar de ser un electrodoméstico pocas veces estudiado, es un indicador enorme del nivel de vida de los hogares.
+
 
 Este es un ejemplo de cita [@Cingano2014]
 
